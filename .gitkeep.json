@@ -1,8 +1,8 @@
 { 
     "name": "<%= appName %>", 
     "version": "0.0.1", 
-    "description": "棒谷前端项目脚手架", 
-    "main": "lib/index.js", 
+    "description": "<%= projectDesc %>", 
+    "main": "<%= projectMain %>", 
     "scripts": { 
       "dev": "node build/dev-server.js", 
       "start": "node build/dev-server.js", 
@@ -14,8 +14,8 @@
       "prepublish": "rimraf lib && ncp src/core lib", 
       "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs" 
     }, 
-    "author": "duanguang She", 
-    "license": "MIT", 
+    "author": "<%= projectAuthor %>", 
+    "license": "<%= projectLicense %>", 
     "devDependencies": { 
       "autoprefixer": "^7.1.2", 
       "babel-core": "^6.22.1", 
