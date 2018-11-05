@@ -1,8 +1,8 @@
 { 
-    "name": "<%= appName %>", 
+    "name": "project-demo", 
     "version": "0.0.1", 
-    "description": "<%= projectDesc %>", 
-    "main": "<%= projectMain %>", 
+    "description": "", 
+    "main": "", 
     "scripts": { 
       "dev": "node build/dev-server.js", 
       "start": "node build/dev-server.js", 
@@ -14,8 +14,8 @@
       "prepublish": "rimraf lib && ncp src/core lib", 
       "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs" 
     }, 
-    "author": "<%= projectAuthor %>", 
-    "license": "<%= projectLicense %>", 
+    "author": "", 
+    "license": "", 
     "devDependencies": { 
       "autoprefixer": "^7.1.2", 
       "babel-core": "^6.22.1", 
