@@ -1,0 +1,8 @@
+.generate-font-size(@n, @i: 1) when(@i < @n) {
+  .fs@{i} {
+    font-size: @i * 1px;
+  }
+  .generate-font-size(@n, (@i + 1));
+}
+
+.generate-font-size(30, 10);

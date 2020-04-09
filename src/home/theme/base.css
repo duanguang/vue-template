@@ -1,0 +1,50 @@
+.tab-right .home-page{
+  height: 42px;
+  line-height: 22px;
+  padding: 10px;
+}
+.tab-right .home-page span{
+  padding-left: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.tab-right .main-content {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.clear::after {
+  content: ' ';
+  display: inline-block;
+  clear: both;
+}

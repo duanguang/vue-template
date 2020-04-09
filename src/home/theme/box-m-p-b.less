@@ -1,0 +1,73 @@
+@box: margin padding border;
+@direction: top left bottom right;
+
+.generate-margin(@n, @i: 1) when(@i < @n) {
+  @dis: @i * 5;
+  .m@{dis} {
+    margin: @i * 5px;
+  }
+
+  .mt@{dis} {
+    margin-top: @i * 5px;
+  }
+  .mr@{dis} {
+    margin-right: @i * 5px;
+  }
+  .mb@{dis} {
+    margin-bottom: @i * 5px;
+  }
+  .ml@{dis} {
+    margin-left: @i * 5px;
+  }
+  .generate-margin(@n, (@i + 1));
+}
+
+.generate-padding(@n, @i: 1) when(@i < @n) {
+  @dis: @i * 5;
+  .p@{dis} {
+    padding: @i * 5px;
+  }
+
+  .pt@{dis} {
+    padding-top: @i * 5px;
+  }
+  .pr@{dis} {
+    padding-right: @i * 5px;
+  }
+  .pb@{dis} {
+    padding-bottom: @i * 5px;
+  }
+  .pl@{dis} {
+    padding-left: @i * 5px;
+  }
+  .generate-padding(@n, (@i + 1));
+}
+
+.generate-border(@n, @i: 1) when(@i < @n) {
+  @dis: @i * 5;
+  .b@{dis} {
+    border-width: @i * 5px;
+  }
+
+  .bt@{dis} {
+    border-left: @i * 5px;
+  }
+  .br@{dis} {
+    border-right: @i * 5px;
+  }
+  .bb@{dis} {
+    border-bottom: @i * 5px;
+  }
+  .bl@{dis} {
+    border-left: @i * 5px;
+  }
+  .generate-border(@n, (@i + 1));
+}
+
+.generate-box-style(@n) {
+  .generate-margin(@n);
+  .generate-padding(@n);
+  .generate-border(@n);
+}
+
+.generate-box-style(8);
