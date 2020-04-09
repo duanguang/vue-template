@@ -4,8 +4,9 @@ module.exports = function (configs) {
     configs = Object.assign({}, configs, {
         name: packageConfig.name,
         defaultPort: 8006,
-        disableEslint:true,
+        disableEslint:false,
         chunkhash:true,
+        projectType:'ts',
         devServer: Object.assign({},
             configs.devServer,
             {
@@ -14,12 +15,12 @@ module.exports = function (configs) {
         apps: ['home'],
         webpack: {
             dllConfig: {
-                vendors: ['vue/dist/vue.esm.js','vue-router','vuex','vue-class-component']
+                vendors: ['vue/dist/vue.esm.js','vue-router','vuex','axios']
             },
             happypack:true
         },
         htmlWebpackPlugin: {
-            title: "SCP",
+            title: "vue-typescript",
         },
         babel:{
             include:[]
