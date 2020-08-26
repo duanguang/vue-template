@@ -514,7 +514,11 @@ async-limiter@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.0.tgz#78faed8c3d074ab81f22b4e985d79e8738f720f8"
 
-async-validator@^1.10.0, async-validator@^1.8.2:
+async-validator@^1.12.2:
+  version "1.12.2"
+  resolved "https://registry.npm.taobao.org/async-validator/download/async-validator-1.12.2.tgz?cache=0&sync_timestamp=1596623572478&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fasync-validator%2Fdownload%2Fasync-validator-1.12.2.tgz#beae671e7174d2938b7b4b69d2fb7e722b7fd72c"
+
+async-validator@^1.8.2:
   version "1.10.1"
   resolved "https://registry.yarnpkg.com/async-validator/-/async-validator-1.10.1.tgz#41e9b0b9f8e719e6edf946372f018a958c2e70f3"
   dependencies:
@@ -3849,15 +3853,6 @@ home-or-tmp@^2.0.0:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.1"
 
-hoolinks@^0.1.4:
-  version "0.1.4"
-  resolved "http://192.168.200.59:4873/hoolinks/-/hoolinks-0.1.4.tgz#fe44abc8cdb3768febcccc0da5a70c9e0fb50cd4"
-  dependencies:
-    axios "^0.18.0"
-    invariant "^2.2.4"
-    json-mapper-object "^0.0.6"
-    warning "^3.0.0"
-
 hosted-git-info@^2.1.4:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
@@ -4112,9 +4107,9 @@ intersperse@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/intersperse/-/intersperse-1.0.0.tgz#f2561fb1cfef9f5277cc3347a22886b4351a5181"
 
-invariant@^2.2.1, invariant@^2.2.2, invariant@^2.2.4:
+invariant@^2.2.2:
   version "2.2.4"
-  resolved "http://192.168.200.59:4873/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
+  resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   dependencies:
     loose-envify "^1.0.0"
 
@@ -4467,18 +4462,18 @@ istanbul@^0.4.0:
     which "^1.1.1"
     wordwrap "^1.0.0"
 
-iview@^3.2.2:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/iview/-/iview-3.2.2.tgz#5b7d8db5d1ea711cc39faae60457aa0354cb52c8"
+iview@^3.5.4:
+  version "3.5.4"
+  resolved "https://registry.npm.taobao.org/iview/download/iview-3.5.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fiview%2Fdownload%2Fiview-3.5.4.tgz#d516b92e73b617f2dc7f45831f99059d69932f82"
   dependencies:
-    async-validator "^1.10.0"
+    async-validator "^1.12.2"
     deepmerge "^2.2.1"
     element-resize-detector "^1.2.0"
     js-calendar "^1.2.3"
     lodash.throttle "^4.1.1"
     popper.js "^1.14.6"
     tinycolor2 "^1.4.1"
-    v-click-outside-x "^3.5.6"
+    v-click-outside-x "^4.0.19"
 
 js-base64@^2.1.9:
   version "2.5.1"
@@ -4535,14 +4530,6 @@ jsesc@~0.5.0:
 json-loader@^0.5.4:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/json-loader/-/json-loader-0.5.7.tgz#dca14a70235ff82f0ac9a3abeb60d337a365185d"
-
-json-mapper-object@^0.0.6:
-  version "0.0.6"
-  resolved "http://192.168.200.59:4873/json-mapper-object/-/json-mapper-object-0.0.6.tgz#688dc8355d81d325fcb2ee22100ad87e29d67561"
-  dependencies:
-    invariant "^2.2.1"
-    reflect-metadata "^0.1.3"
-    warning "^3.0.0"
 
 json-parse-better-errors@^1.0.1:
   version "1.0.2"
@@ -6617,10 +6604,6 @@ reduce-function-call@^1.0.1:
   dependencies:
     balanced-match "^0.4.2"
 
-reflect-metadata@^0.1.3:
-  version "0.1.13"
-  resolved "http://192.168.200.59:4873/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
-
 regenerate@^1.2.1:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.0.tgz#4a856ec4b56e4077c557589cae85e7a4c8869a11"
@@ -7754,6 +7737,10 @@ typescript@^3.0.1:
   version "3.3.3333"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.3.3333.tgz#171b2c5af66c59e9431199117a3bcadc66fdcfd6"
 
+typescript@^3.9.2:
+  version "3.9.7"
+  resolved "https://registry.npm.taobao.org/typescript/download/typescript-3.9.7.tgz?cache=0&sync_timestamp=1598424519382&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftypescript%2Fdownload%2Ftypescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
+
 uglify-js@3.4.x, uglify-js@^3.1.4:
   version "3.4.9"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.4.9.tgz#af02f180c1207d76432e473ed24a28f4a782bae3"
@@ -7899,9 +7886,9 @@ uuid@^3.0.0, uuid@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
 
-v-click-outside-x@^3.5.6:
-  version "3.7.1"
-  resolved "https://registry.yarnpkg.com/v-click-outside-x/-/v-click-outside-x-3.7.1.tgz#aa03eaa0e41e44cb5207dcf86c2d9f0dd64084c1"
+v-click-outside-x@^4.0.19:
+  version "4.1.0"
+  resolved "https://registry.npm.taobao.org/v-click-outside-x/download/v-click-outside-x-4.1.0.tgz#be826680e2d25666a8a185332929d46244aa2447"
 
 validate-npm-package-license@^3.0.1:
   version "3.0.4"

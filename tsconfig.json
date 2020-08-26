@@ -1,57 +1,57 @@
 {
-    "compileOnSave": true,
-    "buildOnSave": true,
-    "targetHasForOf": true,
-    "targetHasGenerators": true,
-    "targetHasIterables": true,
-    "compilerOptions": {
-      //  "noEmitHelpers": true,
-      // "sourceMap": false,     
-      //  "noResolve": true,
-      // "pretty": true,
-      // "isolatedModules": false,
-      "experimentalDecorators": true,
-      
-      "baseUrl": "./",
-      "paths": {
-        //"vue": ["node_modules/vue/types"],
-        "iview":["typings/iview"]
-        // "@/*": ["src/*"]
-      },
-      "jsx": "preserve",
-      "jsxFactory": "h",
-      "allowSyntheticDefaultImports": true,
-      "lib": [
-        "dom",
-        "es5",
-        "es6",
-        "es7",
-        "es2015", "es2017"
-        // "es2015.promise"
-      ],
-      "moduleResolution": "node",
-      "isolatedModules": false,
-      //"module": "commonjs",
-      // "target": "es6",
-       "module": "es2015",
-      "target": "es5",
-      // "typeRoots": [
-      //   "./node_modules/vue/types"
-      // ],
-     
+  "compileOnSave": true,
+  "buildOnSave": true,
+  "targetHasForOf": true,
+  "targetHasGenerators": true,
+  "targetHasIterables": true,
+  "compilerOptions": {
+    //  "noEmitHelpers": true,
+    // "sourceMap": false,     
+    //  "noResolve": true,
+    // "pretty": true,
+    // "isolatedModules": false,
+    "experimentalDecorators": true,
+
+    "baseUrl": "./",
+    "paths": {
+      //"vue": ["node_modules/vue/types"],
+      "iview": ["typings/iview"]
+      // "@/*": ["src/*"]
     },
-    // "files": [
-    //   "node_modules/iview/types/iview.components.d.ts"
-    // ],
-    "exclude": [
-      "dist",
-      "node_modules",
-      "examples"
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es7",
+      "es2015", "es2017"
+      // "es2015.promise"
     ],
-    "include": [
-      "./src/**/*"
-      // "src/**/*.ts",
-      // "src/**/*.tsx",
-      // "src/**/*.vue",
-      ]
-  }
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    //"module": "commonjs",
+    // "target": "es6",
+    "module": "es2015",
+    "target": "es5",
+    // "typeRoots": [
+    //   "./node_modules/vue/types"
+    // ],
+
+  },
+  // "files": [
+  //   "node_modules/iview/types/iview.components.d.ts"
+  // ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "examples"
+  ],
+  "include": [
+    "./src/**/*"
+    // "src/**/*.ts",
+    // "src/**/*.tsx",
+    // "src/**/*.vue",
+  ]
+}
