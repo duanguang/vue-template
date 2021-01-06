@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "ant-design-vue": "^1.5.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "hoolinks": "^0.0.15",
     "iview": "^3.5.4",
     "rxjs": "5.5.6",
